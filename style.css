@@ -1,100 +1,98 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 body {
     background-color: #fff;
+    background-image: url(/Assets/Fondo-gato.colores.png);
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 30px;
 }
 
-.card {
-    display: flex;
-    flex-direction: column;
-    background-color: #fdfafa;
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 15px;
-    border: 1px solid #000;
-    border-radius: 10px;
+.mascaragato{
+    width: 25px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .buttons {
     display: flex;
-    justify-content: space-between;
-    margin: 0 24px;
+    justify-content: space-around;
+    margin: 20px 0px;
 }
 
-#btn-start,
-#btn-reiniciar,
-#btn-grupos {
-    height: 26px;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 5px;
-    border: 1px solid #b4b4b4;
-    width: 30%;
+.btn{
+    background-image: linear-gradient(to right, #c25b5e, #eb898e, #e29899);
 }
 
-#taskList {
+.content {
+    margin-top: 30px;
     display: flex;
-    justify-content: space-between;
-    background-color: #f3d0d0;
-    height: 800px;
-    width: 800px;
-    margin: 20px auto;
-    border: 1px solid #b4b4b4;
-    border-radius: 5px;
-    padding: 20px;
+    justify-content: center;
+    gap: 30px;
 }
 
-.lista {
-    list-style: none;
-    margin-bottom: 12px;
-    width: 200px;
-}
-
-.answer {
+.buttons {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    background-color: #fff;
-    height: 700px;
-    width: 500px;
-    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 25px 0;
 }
 
-/*.nombre {
-    width: 200px;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-}*/
-
-.eliminar {
-    padding: 2px;
+.buttons button {
+    padding: 6px;
+    font-size: 17px;
 }
 
-.voluntaria {
-    color: #000;
-    text-align: center;
-    font-size: 20px;
+.form {
+    font-size: 17px;
 }
 
-.grupo {
+.select {
     font-size: 16px;
+    padding: 4px 0 4px 4px;
+}
+
+.number-of-groups {
+    margin-right: 5px;
+}
+
+.list-content {
+    width: 200px; /*tiene ancho de 20% de su contenedor padre que tiene class="content"*/
+    align-items: center;
+}
+
+.list-title {
+    margin-bottom: 10px;
+}
+
+.list {
+    list-style: none; /*elimina las bolitas en una lista desordenada (ul) HTML*/
+    font-size: 18px;
 }
 
 .coder {
-    margin-bottom: 6px;
-    display: flex;
-    justify-content: space-between;
+    margin-bottom: 8px;
 }
 
-.tachar {
-    text-decoration-line: line-through;
-    text-decoration-thickness: 2px;
-    text-decoration-color: #960909;
-    color: #960909;
+.bola{
+    width: 25px;  
 }
+
+.image {
+    width: 70%; /*tiene ancho de 70% de su contenedor padre que tiene class="content"*/
+}
+
+.image img {
+    width: 100%;
+    margin-top: 200px; /*tiene ancho de 100% de su contenedor padre que tiene class="image"*/
+    /*margin: 30px 0;*/
+}
+
+/*LISTA DE COLORES
+#c25b5e
+#a53439
+#721c20
+#a52a2a
+#e29899
+*/
