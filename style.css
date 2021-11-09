@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdfafa;
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 24px;
+}
+
+#btn-start,
+#btn-reiniciar,
+#btn-grupos {
+    height: 26px;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #b4b4b4;
+    width: 30%;
+}
+
+#taskList {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f3d0d0;
+    height: 800px;
+    width: 800px;
+    margin: 20px auto;
+    border: 1px solid #b4b4b4;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.lista {
+    list-style: none;
+    margin-bottom: 12px;
+    width: 200px;
+}
+
+.answer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #fff;
+    height: 700px;
+    width: 500px;
+    padding: 20px;
+}
+
+/*.nombre {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}*/
+
+.eliminar {
+    padding: 2px;
+}
+
+.voluntaria {
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+}
+
+.grupo {
+    font-size: 16px;
+}
+
+.coder {
+    margin-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tachar {
+    text-decoration-line: line-through;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #960909;
+    color: #960909;
+}
